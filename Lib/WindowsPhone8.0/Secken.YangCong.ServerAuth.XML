@@ -1,0 +1,1913 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Secken.YangCong.ServerAuth</name>
+    </assembly>
+    <members>
+        <member name="M:Led.Base.BasePublicForWindowsPhone8.GetAppSize">
+            <summary>
+            全局承载的应用分辨率
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Base.BasePublicForWindowsPhone8.GetDeviceId">
+            <summary>
+            获取当前设备标识
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Led.Base.BasePublicForWindowsPhone8._deviceName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.AppInsight.ApiModels.AppInsightItem">
+            <summary>
+            应用观察 - 数据模型
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.CompanyName">
+            <summary>
+            CompanyName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.PlatformName">
+            <summary>
+            PlatformName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.AppName">
+            <summary>
+            AppName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.PublishName">
+            <summary>
+            PublishName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.VersionName">
+            <summary>
+            VersionName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.DeviceName">
+            <summary>
+            DeviceName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.DeviceNickName">
+            <summary>
+            DeviceNickName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.RecordTime">
+            <summary>
+            RecordTime
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.LogContent">
+            <summary>
+            LogContent
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.TagInfo">
+            <summary>
+            TagInfo
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.LbsInfo">
+            <summary>
+            LbsInfo
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.UserAddress">
+            <summary>
+            UserAddress
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.LogLevel">
+            <summary>
+            LogLevel
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.PointName">
+            <summary>
+            PointName
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.IsDoubleDbWrite">
+            <summary>
+            IsDoubleDbWrite
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.AppInsight.ApiModels.AppInsightItem.LogType">
+            <summary>
+            LogType
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.AppInsight.ApiModels.AppInsightLevel">
+            <summary>
+            应用观察 - 数据等级
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.AppInsight.ApiModels.AppInsightLogType">
+            <summary>
+            应用观察 - 数据类型
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.AppInsight.ApiModels.AppInsightLogType.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.AppInsight.ApiModels.AppInsightLogType.DataByHttp">
+            <summary>
+            基于Http的数据请求
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.AppInsight.ApiModels.AppInsightLogType.Business">
+            <summary>
+            基于预期结果的业务
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.AppInsight.AppInsightDataProvider">
+            <summary>
+            应用观察 - 框架执行服务
+            </summary>
+        </member>
+        <member name="M:Led.Plugin.AppInsight.AppInsightDataProvider.Action``1(Led.Plugin.AppInsight.AppInsightProviderType,System.Object[])">
+            <summary>
+            当前方法
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.AppInsight.AppInsightProvider">
+            <summary>
+            应用观察 - 框架服务
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.AppInsight.AppInsightProvider._current">
+            <summary>
+            当前实例
+            </summary>
+        </member>
+        <member name="M:Led.Plugin.AppInsight.AppInsightProvider.Action``1(Led.Plugin.AppInsight.AppInsightProviderType,System.Object[])">
+            <summary>
+            当前方法
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.AppInsight.AppInsightProviderType">
+            <summary>
+            应用观察 - 框架服务类型
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.AppInsight.AppInsightProviderType.Unknow">
+            <summary>
+            非法操作
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.AppInsight.AppInsightProviderType.AddLog">
+            <summary>
+            添加日志
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem">
+            <summary>
+            通用网络 - Json文件接口
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem.StringContentKey">
+            <summary>
+            文本类型
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem.ByteContentKey">
+            <summary>
+            字节类型
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem.StreamContentKey">
+            <summary>
+            流类型
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem.Name">
+            <summary>
+            文件名称（显示标识）
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem.FileName">
+            <summary>
+            文件名称（带后缀）
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem.FileBytes">
+            <summary>
+            文件数据（字节型）
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem.ContentType">
+            <summary>
+            文件扩展名（Mime-Type）
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem">
+            <summary>
+            通用网络 - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.ResultObject">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.ResultCookies">
+            <summary>
+            返回携带
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.HttpAddress">
+            <summary>
+            请求地址
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.HttpMethod">
+            <summary>
+            请求方式
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.StatusCode">
+            <summary>
+            返回状态
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.CostTime">
+            <summary>
+            消耗时间
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.Exception">
+            <summary>
+            Exception
+            </summary>
+        </member>
+        <member name="P:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem.ActionMsg">
+            <summary>
+            ActionMsg
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem._originRequestDic">
+            <summary>
+            OriginRequestDic
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem._encryptRequestDic">
+            <summary>
+            EncryptRequestDic
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem._originResponseStr">
+            <summary>
+            OriginResponseStr
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem._decryptedResponseStr">
+            <summary>
+            DecryptedResponseStr
+            </summary>
+        </member>
+        <member name="M:Led.Plugin.HttpAshx.HttpClient.ExpandForHttpHandler.ToResultString``1(Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem)">
+            <summary>
+            ToString
+            </summary>
+            <param name="thisHttpPostResult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.HttpAshx.HttpClient.ExpandForHttpHandler.ToGetBytes(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Boolean)">
+            <summary>
+            ToGetBytes
+            </summary>
+            <param name="thisHttpAddressString"></param>
+            <param name="thisGetParaDics"></param>
+            <param name="thisCookieDics"></param>
+            <param name="thisUserAgent"></param>
+            <param name="isTimeAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.HttpAshx.HttpClient.ExpandForHttpHandler.ToGetStream(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Boolean)">
+            <summary>
+            ToGetStream
+            </summary>
+            <param name="thisHttpAddressString"></param>
+            <param name="thisGetParaDics"></param>
+            <param name="thisCookieDics"></param>
+            <param name="thisUserAgent"></param>
+            <param name="isTimeAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.HttpAshx.HttpClient.ExpandForHttpHandler.ToGetString(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Boolean)">
+            <summary>
+            ToGetByHttp
+            </summary>
+            <param name="thisHttpAddressString">请求地址</param>
+            <param name="thisGetParaDics">请求数据</param>
+            <param name="thisUserAgent">自定义头部</param>
+            <param name="thisCookieDics">保持数据</param>
+            <param name="isTimeAddress">是否即时</param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.HttpAshx.HttpClient.ExpandForHttpHandler.ToPostString(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem},System.String,System.Boolean,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            ToPostString
+            </summary>
+            <param name="thisHttpAddressString">请求地址</param>
+            <param name="thisPostParaDics">请求数据</param>
+            <param name="thisHttpCookies">保持数据</param>
+            <param name="thisPostFiles">请求文件</param>
+            <param name="thisUserAgent">自定义头部</param>
+            <param name="isTimeAddress">是否即时</param>
+            <param name="thisUrlReferrer"></param>
+            <param name="thisHeaderCustomAddDic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.HttpAshx.HttpClient.ExpandForHttpHandler.ToPostStream(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem},System.String,System.Boolean)">
+            <summary>
+            ToPostStream
+            </summary>
+            <param name="thisHttpAddressString">请求地址</param>
+            <param name="thisPostParaDics">请求数据</param>
+            <param name="thisHttpCookies">保持数据</param>
+            <param name="thisPostFiles">请求文件</param>
+            <param name="thisUserAgent">自定义头部</param>
+            <param name="isTimeAddress">是否即时</param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.HttpAshx.HttpClient.ExpandForHttpHandler.ToPostBytes(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem},System.String,System.Boolean)">
+            <summary>
+            ToPostBytes
+            </summary>
+            <param name="thisHttpAddressString">请求地址</param>
+            <param name="thisPostParaDics">请求数据</param>
+            <param name="thisHttpCookies">保持数据</param>
+            <param name="thisPostFiles">请求文件</param>
+            <param name="thisUserAgent">自定义头部</param>
+            <param name="isTimeAddress">是否即时</param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptHmacShaString(System.Byte[],System.Byte[],Led.Plugin.PKI.Hash.BaseEns.HmacShaAlgorithm,System.Boolean)">
+            <summary>
+            ByDecryptedString + Key + HmacShaType -> ByEncryptHmacShaString
+            </summary>
+            <param name="byDecryptedString"></param>
+            <param name="key"></param>
+            <param name="keyBytes"></param>
+            <param name="hmacShaType"></param>
+            <param name="toLower"></param>
+            <param name="dataBuffer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptShaFileString(System.String)">
+            <summary>
+            ByDecryptedFilePath -> ByEncryptedShaFileString
+            </summary>
+            <param name="byDecryptedFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptMd5FileString(System.String)">
+            <summary>
+            ByDecryptedFilePath -> ByEncryptedMd5FileString
+            </summary>
+            <param name="byDecryptedFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptSha1String(System.String)">
+            <summary>
+            ByDecryptedString -> ByEncryptedSha1String
+            </summary>
+            <param name="byDecryptedString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptMd5String(System.String)">
+            <summary>
+            ByDecryptedString -> ByEncryptedMd5String
+            </summary>
+            <param name="byDecryptedString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToDecryptBase64String(System.String)">
+            <summary>
+            ByEncryptedString -> ByDecryptedString
+            </summary>
+            <param name="byEncryptedString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptBase64String(System.String)">
+            <summary>
+            ByDecryptedString -> ByEncryptedString
+            </summary>
+            <param name="byDecryptedString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.GetUiKey">
+            <summary>
+            全局承载的安全Key
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToDecryptStringToStrings(System.String)">
+            <summary>
+            ByEncryptedString -> ByDecryptedString
+            </summary>
+            <param name="byEncryptedString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptStringToStrings(System.String)">
+            <summary>
+            ByDecryptedString -> ByEncryptedString
+            </summary>
+            <param name="byDecryptedString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToDecryptFileToStrings(System.String)">
+            <summary>
+            ByEncryptedStringPath -> String
+            </summary>
+            <param name="byEncryptedStringPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptImageToFiles(System.Windows.Media.Imaging.BitmapSource,System.String)">
+            <summary>
+            ByDecryptedImage -> ByEncryptedFilePath
+            </summary>
+            <param name="byDecryptedImage"></param>
+            <param name="byEncryptedFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptStringToFiles(System.String,System.String)">
+            <summary>
+            ByDecryptedString -> ByEncryptedFilePath
+            </summary>
+            <param name="byDecryptedString"></param>
+            <param name="byEncryptedFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToDecryptFileToImages(System.String)">
+            <summary>
+            ByEncryptedImagePath -> Image
+            </summary>
+            <param name="byEncryptedImagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptImageToFiles(System.String)">
+            <summary> 
+            ByDecryptedImagePath -> ByEncryptedFilePath
+            </summary>
+            <param name="byDecryptedImagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToDecryptFileToFiles(System.String,System.String)">
+            <summary>
+            ByEncryptedFilePath -> ByDecryptedFilePath
+            </summary>
+            <param name="byEncryptedFilePath"></param>
+            <param name="byDecryptedFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ToEncryptFileToFiles(System.String,System.String)">
+            <summary> 
+            ByDecryptedFilePath -> ByEncryptedFilePath
+            </summary>
+            <param name="byDecryptedFilePath"></param>
+            <param name="byEncryptedFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.DecryptFileToBytes(System.String)">
+            <summary>
+            ByEncryptedFilePath - > Decrypt -> Byte[]
+            </summary>
+            <param name="byEncryptedFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.EncryptFileToBytes(System.String)">
+            <summary>
+            ByDecryptedFilePath - > Encrypt -> Byte[]
+            </summary>
+            <param name="byDecryptedFilePath"></param>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.GetSafeEncKey(System.IO.FileInfo)">
+            <summary>
+            FileInfo -> EncKey
+            </summary>
+            <param name="fileInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.GetSafeEncIv(System.IO.FileInfo)">
+            <summary>
+            FileInfo -> EncIv
+            </summary>
+            <param name="fileInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.GetSafeEncKey(System.String)">
+            <summary>
+            StrInfo -> EncKey
+            </summary>
+            <param name="strInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.GetSafeEncIv(System.String)">
+            <summary>
+            StrInfo -> EncIv
+            </summary>
+            <param name="strInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.StringMd5ShaToString(System.String,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Text.Encoding)">
+            
+             <summary>
+             MD5 (16-32)位 / SHA (1-256-384-512)位 String -> String
+             </summary>
+            <param name="isSha"></param>
+            <param name="toEn"></param>
+             <param name="size"></param>
+             <param name="toLower"></param>
+             <param name="time"></param>
+             <param name="encoding"></param>
+             <returns>string / null</returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.FileMd5ShaToString(System.String,System.Boolean,System.Int32)">
+            <summary>
+            MD5 (16-32)位 / SHA (1-256-384-512)位 FilePath -> String
+            </summary>
+            <param name="isSha"></param>
+            <param name="fileReadPath"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ByteMd5ToString(System.Byte[],System.Int32,System.Boolean,System.Int32,System.Text.Encoding)">
+            
+             <summary>
+             MD5 (16-32)位 Byte -> String
+             </summary>
+             <param name="toEn"></param>
+             <param name="size"></param>
+             <param name="toLower"></param>
+             <param name="time"></param>
+             <param name="encoding"></param>
+             <returns>string / null </returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ByteShaToString(System.Byte[],System.Int32,System.Boolean,System.Int32,System.Text.Encoding)">
+            
+             <summary>
+             SHA (1-256-384-512)位 Byte -> String
+             </summary>
+             <param name="toEn"></param>
+             <param name="size"></param>
+             <param name="toLower"></param>
+             <param name="time"></param>
+             <param name="encoding"></param>
+             <returns>string / null </returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ByteMd5ToByte(System.Byte[])">
+            
+             <summary>
+             MD5 (16-32)位 Byte -> Byte
+             </summary>
+             <param name="toEn"></param>
+             <returns>byte[] / null</returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ByteShaToByte(System.Byte[],System.Int32)">
+            
+             <summary>
+             SHA (1-256-384-512)位  Byte -> Byte
+             </summary>
+             <param name="toEn"></param>
+             <param name="size"></param>
+             <returns>byte[] / null </returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ByteAesToByte(System.Boolean,System.Byte[],System.String,System.String,System.Boolean)">
+            
+            <summary>
+            AES 加解密 Byte -> Byte
+            </summary>
+            <param name="isDec"></param>
+            <param name="plainbyte"></param>
+            <param name="key"></param>
+            <param name="iv"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.StringAesToString(System.Boolean,System.String,System.String,System.String)">
+            
+             <summary>
+             AES 加解密 String -> String
+             </summary>
+            <param name="isDec"></param>
+            <param name="plainText"></param>
+             <param name="key"></param>
+             <param name="iv"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.StringAesEncToByte(System.String,System.String,System.String,System.Boolean)">
+            
+             <summary>
+             AES 加密 String -> Byte
+             </summary>
+             <param name="plainText"></param>
+            <param name="key"></param>
+            <param name="iv"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.ByteAesDecToString(System.Byte[],System.String,System.String)">
+            <summary>
+            AES 解密 Byte -> String
+            </summary>
+            <param name="cipherText"></param>
+            <param name="key"></param>
+            <param name="iv"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.BaseEns.GetEnDecryptConst">
+            <summary>
+            函数Key
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.PKI.Hash.Md5">
+            <summary>
+                Summary description for MD5.
+            </summary>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.Create(System.String)">
+            <summary>
+                Create 加密方法
+            </summary>
+            <param name="hashName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.ROTATE_LEFT(System.UInt32,System.Byte)">
+            <summary>
+                rotates x left n bits.
+            </summary>
+            <param name="x"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.FF(System.UInt32@,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte,System.UInt32)">
+            FF, GG, HH, and II transformations 
+            for rounds 1, 2, 3, and 4.
+            Rotation is separate from addition to prevent recomputation.
+        </member>
+        <member name="F:Led.Plugin.PKI.Hash.Md5.state">
+            <summary>
+                state (ABCD)
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.PKI.Hash.Md5.count">
+            <summary>
+                number of bits, modulo 2^64 (lsb first)
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.PKI.Hash.Md5.buffer">
+            <summary>
+                input buffer
+            </summary>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.Initialize">
+            <summary>
+                MD5 initialization. Begins an MD5 operation, writing a new context.
+            </summary>
+            <remarks>
+                The RFC named it "MD5Init"
+            </remarks>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.HashCore(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+                MD5 block update operation. Continues an MD5 message-digest
+                operation, processing another message block, and updating the
+                context.
+            </summary>
+            <param name="input"></param>
+            <param name="offset"></param>
+            <param name="count"></param>
+            <remarks>The RFC Named it MD5Update</remarks>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.HashFinal">
+            <summary>
+                MD5 finalization. Ends an MD5 message-digest operation, writing the
+                the message digest and zeroizing the context.
+            </summary>
+            <returns>message digest</returns>
+            <remarks>The RFC named it MD5Final</remarks>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.Transform(System.Byte[],System.Int32)">
+            <summary>
+                MD5 basic transformation. Transforms state based on 64 bytes block.
+            </summary>
+            <param name="block"></param>
+            <param name="offset"></param>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.Encode(System.Byte[],System.Int32,System.UInt32[],System.Int32,System.Int32)">
+            <summary>
+                Encodes input (uint) into output (byte). Assumes len is
+                multiple of 4.
+            </summary>
+            <param name="output"></param>
+            <param name="outputOffset"></param>
+            <param name="input"></param>
+            <param name="inputOffset"></param>
+            <param name="count"></param>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.Md5.Decode(System.UInt32[],System.Int32,System.Byte[],System.Int32,System.Int32)">
+            <summary>
+                Decodes input (byte) into output (uint). Assumes len is
+                a multiple of 4.
+            </summary>
+            <param name="output"></param>
+            <param name="outputOffset"></param>
+            <param name="input"></param>
+            <param name="inputOffset"></param>
+            <param name="count"></param>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.ExpandForWeb.ToUrlEncode(System.String)">
+            <summary>
+            WEB编码 - 加密URL
+            </summary>
+            <param name="urlStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.ExpandForWeb.ToUrlDecode(System.String)">
+            <summary>
+            WEB编码 - 解密URL
+            </summary>
+            <param name="urlStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.ExpandForWeb.IsConnectedInternet">
+            <summary>
+            WEB状态 - 是否联网
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Led.Plugin.PKI.Hash.MD5CryptoServiceProvider">
+            <summary>
+            MD5 32位加密
+            </summary>
+        </member>
+        <member name="T:Led.Plugin.PKI.Hash.MD5">
+            <summary>
+            Summary description for MD5.
+            </summary>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.Create(System.String)">
+            <summary>
+            Create 加密方法
+            </summary>
+            <param name="hashName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.ROTATE_LEFT(System.UInt32,System.Byte)">
+            <summary>
+            rotates x left n bits.
+            </summary>
+            <param name="x"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.FF(System.UInt32@,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Byte,System.UInt32)">
+            FF, GG, HH, and II transformations 
+            for rounds 1, 2, 3, and 4.
+            Rotation is separate from addition to prevent recomputation.
+        </member>
+        <member name="F:Led.Plugin.PKI.Hash.MD5.state">
+            <summary>
+            state (ABCD)
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.PKI.Hash.MD5.count">
+            <summary>
+            number of bits, modulo 2^64 (lsb first)
+            </summary>
+        </member>
+        <member name="F:Led.Plugin.PKI.Hash.MD5.buffer">
+            <summary>
+            input buffer
+            </summary>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.Initialize">
+            <summary>
+            MD5 initialization. Begins an MD5 operation, writing a new context.
+            </summary>
+            <remarks>
+            The RFC named it "MD5Init"
+            </remarks>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.HashCore(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            MD5 block update operation. Continues an MD5 message-digest
+            operation, processing another message block, and updating the
+            context.
+            </summary>
+            <param name="input"></param>
+            <param name="offset"></param>
+            <param name="count"></param>
+            <remarks>The RFC Named it MD5Update</remarks>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.HashFinal">
+            <summary>
+            MD5 finalization. Ends an MD5 message-digest operation, writing the
+            the message digest and zeroizing the context.
+            </summary>
+            <returns>message digest</returns>
+            <remarks>The RFC named it MD5Final</remarks>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.Transform(System.Byte[],System.Int32)">
+            <summary>
+            MD5 basic transformation. Transforms state based on 64 bytes block.
+            </summary>
+            <param name="block"></param>
+            <param name="offset"></param>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.Encode(System.Byte[],System.Int32,System.UInt32[],System.Int32,System.Int32)">
+            <summary>
+            Encodes input (uint) into output (byte). Assumes len is
+             multiple of 4.
+            </summary>
+            <param name="output"></param>
+            <param name="outputOffset"></param>
+            <param name="input"></param>
+            <param name="inputOffset"></param>
+            <param name="count"></param>
+        </member>
+        <member name="M:Led.Plugin.PKI.Hash.MD5.Decode(System.UInt32[],System.Int32,System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Decodes input (byte) into output (uint). Assumes len is
+            a multiple of 4.
+            </summary>
+            <param name="output"></param>
+            <param name="outputOffset"></param>
+            <param name="input"></param>
+            <param name="inputOffset"></param>
+            <param name="count"></param>
+        </member>
+        <member name="M:Led.ExpandIs.IsNotEmptyObjectList(System.Collections.Generic.List{System.Object})">
+            <summary>
+            List -> IsEmptyObjectList
+            </summary>
+            <param name="iList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandIs.IsNotEmptyList(System.Collections.Generic.List{System.String})">
+            <summary>
+            List -> IsNotEmptyList
+            </summary>
+            <param name="iList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandIs.IsNotEmptyStrings(System.String[])">
+            <summary>
+            String[] -> IsNotEmptyStrings
+            </summary>
+            <param name="iString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandIs.IsNotEmptyBytes(System.Byte[])">
+            <summary>
+            Byte[] -> IsNotEmptyBytes
+            </summary>
+            <param name="iBytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandIs.IsNotEmpty(System.Object)">
+            <summary>
+            Object -> IsNotEmpty
+            </summary>
+            <param name="iO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandIs.IsNotNullOrEmpty(System.String)">
+            <summary>
+            String -> Check Value -> IsNotNullOrEmpty
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandIs.IsNullOrEmptyOrSpace(System.String)">
+            <summary>
+            String -> Check Value -> IsNullOrEmptyOrSpace
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandSer.Serialize(System.Object)">
+            <summary>
+            序列化
+            </summary>
+            <param name="objectToSerialize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandSer.Deserialize``1(System.String)">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="jsonString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandSer.SerializeXml(System.Object)">
+            <summary>
+            序列化
+            </summary>
+            <param name="objectToSerialize"></param>
+        </member>
+        <member name="M:Led.ExpandSer.DeserializeXml``1(System.String)">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="xmlString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToInt(System.String)">
+            <summary>
+            String -> Int
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToInt64(System.String)">
+            <summary>
+            String -> Int64
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToBool(System.Object)">
+            <summary>
+             String -> Boolean
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToFloat(System.String)">
+            <summary>
+            String -> Int
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToBytes(System.IO.Stream)">
+            <summary>
+            将 Stream 转成 byte[]
+            </summary>
+            <param name="stream"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToStream(System.Byte[])">
+            <summary>
+            将 byte[] 转成 Stream
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToStr(System.Byte[])">
+            <summary>
+            Bytes -> String
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToStr(System.IO.Stream)">
+            <summary>
+            Stream  -> String
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToBytes(System.String)">
+            <summary>
+            string 转换为 byte[] 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToStream(System.String)">
+            <summary>
+            string 转换为 Stream 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToSafeObjects(System.Collections.Generic.List{System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="objects"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandTurn.ToSafeValue(System.String)">
+            <summary>
+            String -> Check Value -> GetBack -> String
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandUri.ToHttpUri(System.String)">
+            <summary>
+            PathStr -> ToUri
+            </summary>
+            <param name="pathStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandUri.ToRelativeUri(System.String)">
+            <summary>
+            PathStr -> ToRelativeUri
+            </summary>
+            <param name="pathStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandUri.ToAbsoluteUri(System.String)">
+            <summary>
+            PathStr -> ToAbsoluteUri
+            </summary>
+            <param name="pathStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandUri.ToRelativeOrAbsoluteUri(System.String)">
+            <summary>
+            PathStr -> ToRelativeOrAbsoluteUri
+            </summary>
+            <param name="pathStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandWeb.ToTimeAddress(System.String)">
+            <summary>
+            WEB数据 - 携带时间戳
+            </summary>
+            <param name="thisUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandWeb.GetTimeStamp">
+            <summary>
+            WEB数据 - 获取时间戳
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandWeb.ToUrlEncodeByBase64(System.String)">
+            <summary>
+            WEB编码 - 加密 - 适用于URL的Base64编码字符串
+            </summary>
+        </member>
+        <member name="M:Led.ExpandWeb.ToUrlDecodeByBase64(System.String)">
+            <summary>
+            WEB编码 - 解密 - 适用于URL的Base64编码字符串
+            </summary>
+        </member>
+        <member name="M:Led.ExpandWeb.ToCookieContainer(System.Collections.Generic.Dictionary{System.String,System.String},System.String)">
+            <summary>
+            WEB数据 - 合成COOKIE
+            </summary>
+            <param name="cookieDics"></param>
+            <param name="uriString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandWeb.ToCookieCollection(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            WEB数据 - 合成CookieCollection
+            </summary>
+            <param name="cookieDics"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Led.ExpandWeb.ToGetFormData(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            WEB数据 - 拼接表单
+            </summary>
+            <param name="getDics"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.WriteFile(System.String,System.String)">
+            <summary>
+            String + FilePath -> WriteFile
+            </summary>
+            <param name="thisStr"></param>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ReadFile(System.String)">
+            <summary>
+            FilePath -> ReadFile -> string
+            </summary>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.DeleteFile(System.String)">
+            <summary>
+            FilePath -> DeleteFile -> string
+            </summary>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.DeleteDir(System.String)">
+            <summary>
+            String -> Dir -> ToDelete
+            </summary>
+            <param name="dir"></param>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.CreatDir(System.String)">
+            <summary>
+            DirPath -> ToSafeDirectory -> Bool
+            </summary>
+            <param name="thisDirPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ToCreateDirectory(System.String)">
+            <summary>
+            DirPath -> CreateDirectory -> Bool
+            </summary>
+            <param name="thisDirPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.IsExistFile(System.String)">
+            <summary>
+            FilePath -> IsExistFile -> Bool
+            </summary>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.IsExistDir(System.String)">
+            <summary>
+            DirPath -> IsExistDir -> Bool
+            </summary>
+            <param name="thisDirPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.SaveStream(System.IO.Stream,System.String)">
+            <summary>
+            Stream + FilePath -> SaveStream -> Bool
+            </summary>
+            <param name="thisStream"></param>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ReadStream(System.String)">
+            <summary>
+            FilePath -> ReadStream -> Stream
+            </summary>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.WriteBytes(System.Byte[],System.String)">
+            <summary>
+            AllByte - > FilePath -> Bool
+            </summary>
+            <param name="allByte"></param>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ReadBytes(System.String)">
+            <summary>
+            FilePath -> ToReadBytes
+            </summary>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ToNameNoExt(System.String)">
+            <summary>
+            String -> Path -> NameNoExt
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ToImage(System.Byte[])">
+            <summary>
+            二进制转换成图片
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ToImage(System.IO.Stream)">
+            <summary>
+            Stream 转换为 image 图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ReadImage(System.String)">
+            <summary>
+            读取本地图片
+            </summary>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.WriteImage(System.Windows.Media.Imaging.BitmapSource,System.String)">
+            <summary>
+            保存本地图片
+            </summary>
+            <param name="thisBitmapImage"></param>
+            <param name="thisFilePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Storage.DataProvider.ExpandForFileIo.ToResourceStream(System.String,System.String)">
+            <summary>
+            ResourceAddress + AssemblyNamespace -> ToResourceStream
+            </summary>
+            <param name="thisResourceAddress"></param>
+            <param name="thisAssemblyNamespace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToGetBytesByHttpClient(System.Net.Http.HttpClient,System.String)">
+            <summary>
+            HttpClient + HttpAddress -> Byte[]
+            </summary>
+            <param name="thisHttpClient"></param>
+            <param name="thisHttpAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToGetStringByHttpClient(System.Net.Http.HttpClient,System.String)">
+            <summary>
+            HttpClient + HttpAddress -> String
+            </summary>
+            <param name="thisHttpClient"></param>
+            <param name="thisHttpAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToGetStreamByHttpClient(System.Net.Http.HttpClient,System.String)">
+            <summary>
+            HttpClient + HttpAddress -> Stream
+            </summary>
+            <param name="thisHttpClient"></param>
+            <param name="thisHttpAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToPostStringByHttpClient(System.Net.Http.HttpClient,System.String,System.Net.Http.HttpContent)">
+            <summary>
+            HttpClient + HttpAddress + MultipartFormDataContent -> String
+            </summary>
+            <param name="thisHttpClient"></param>
+            <param name="thisHttpAddress"></param>
+            <param name="thisMultipartFormDataContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToPostStreamByHttpClient(System.Net.Http.HttpClient,System.String,System.Net.Http.HttpContent)">
+            <summary>
+            HttpClient + HttpAddress + MultipartFormDataContent -> Stream
+            </summary>
+            <param name="thisHttpClient"></param>
+            <param name="thisHttpAddress"></param>
+            <param name="thisMultipartFormDataContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToPostBytesByHttpClient(System.Net.Http.HttpClient,System.String,System.Net.Http.HttpContent)">
+            <summary>
+            HttpClient + HttpAddress + MultipartFormDataContent -> Bytes
+            </summary>
+            <param name="thisHttpClient"></param>
+            <param name="thisHttpAddress"></param>
+            <param name="thisMultipartFormDataContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToHttpClientHandler(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            HttpAddressString + HttpCookies -> ToHttpClientHandler
+            </summary>
+            <param name="thisHttpAddressString"></param>
+            <param name="thisHttpCookies"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToHttpClient(System.Net.Http.HttpClientHandler,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            HttpClientHandler + UserAgent -> ToHttpClient
+            </summary>
+            <param name="thisHttpClientHandler"></param>
+            <param name="thisUserAgent"></param>
+            <param name="thisUrlReferrer"></param>
+            <param name="thisHeaderCustomAddDic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToHttpAddress(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            HttpAddressString + HttpParas + IsTimeAddress -> ToHttpAddress
+            </summary>
+            <param name="thisHttpAddressString"></param>
+            <param name="thisHttpParas"></param>
+            <param name="isTimeAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.AuthSdk.Expand.ExpandForHttpClient.ToMultipartFormDataContent(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem},System.Boolean@)">
+            <summary>
+            HttpPostParas + HttpPostFiles -> ToMultipartFormDataContent
+            </summary>
+            <param name="thisHttpPostParas"></param>
+            <param name="thisHttpPostFiles"></param>
+            <param name="isHasPostData"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.DataProvider.V2.ScanQrCodeLoginHelper._currentAppId">
+            <summary>
+            当前AppId
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.DataProvider.V2.ScanQrCodeLoginHelper._currentAppKey">
+            <summary>
+            当前AppKey
+            </summary>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V2.ScanQrCodeLoginHelper.GetYangAuthQrCode(System.String,System.String)">
+            <summary>
+            GetYangAuthQrCode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V2.ScanQrCodeLoginHelper.CheckYangAuthResult(System.String,System.String,System.String)">
+            <summary>
+            CheckYangAuthResult
+            </summary>
+            <param name="appKey"></param>
+            <param name="eventId"></param>
+            <param name="appId"></param>
+            <returns>ResultForSeckenUserId</returns>
+        </member>
+        <member name="T:Secken.ServerAuth.Framework.DataProvider.V3.ScanQrCodeLoginHelper">
+            <summary>
+            ScanQrCodeLoginHelper
+            </summary>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ScanQrCodeLoginHelper.GetYangAuthQrCode(Secken.ServerAuth.Models.Request.RequestForServerAuthQrCode)">
+            <summary>
+            GetYangAuthQrCode
+            </summary>
+            <param name="thisRequestYangAuthQrCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ScanQrCodeLoginHelper.CheckYangAuthResult(Secken.ServerAuth.Models.Request.RequestForServerAuthResult)">
+            <summary>
+            CheckYangAuthResult
+            </summary>
+            <param name="thisRequestYangAuthResult"></param>
+            <returns>ResultForSeckenUserId</returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ScanQrCodeLoginHelper.AskYangAuthPush(Secken.ServerAuth.Models.Request.RequestForServerAuthPush)">
+            <summary>
+            AskYangAuthPush
+            </summary>
+            <param name="thisRequestYangAuthPush"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Secken.ServerAuth.Framework.DataProvider.V3.ServerAuthSignatureHelpler">
+            <summary>
+            ServerAuthSignatureHelpler
+            </summary>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ServerAuthSignatureHelpler.GetYangAuthVerifyTypeCode(Secken.ServerAuth.Models.MethodForServerAuth)">
+            <summary>
+            GetYangAuthVerifyTypeCode
+            </summary>
+            <param name="nowSeckenAuthVerifyType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ServerAuthSignatureHelpler.GetYangAuthActionTypeCode(Secken.ServerAuth.Models.TypeForAuthAction)">
+            <summary>
+            GetYangAuthActionTypeCode
+            </summary>
+            <param name="nowAuthActionType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ServerAuthSignatureHelpler.GetYangAuthQrCodeSignature(Secken.ServerAuth.Models.Request.RequestForServerAuthQrCode)">
+            <summary>
+            GetYangAuthQrCodeSignature
+            </summary>
+            <param name="thisRequestYangAuthQrCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ServerAuthSignatureHelpler.CheckYangAuthResultSignature(Secken.ServerAuth.Models.Request.RequestForServerAuthResult)">
+            <summary>
+            CheckYangAuthResultSignature
+            </summary>
+            <param name="thisRequestYangAuthResult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.DataProvider.V3.ServerAuthSignatureHelpler.AskYangAuthPushSignature(Secken.ServerAuth.Models.Request.RequestForServerAuthPush)">
+            <summary>
+            AskYangAuthPushSignature
+            </summary>
+            <param name="thisRequestYangAuthPush"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.HttpProvider.ExpandForSeckenHttpHandler.ToSeckenResultString(Led.Plugin.HttpAshx.ApiModels.HttpAshxResultItem)">
+            <summary>
+            ToSeckenResultString
+            </summary>
+            <param name="thisHttpSeckenResultItem"></param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.HttpProvider.ExpandForSeckenHttpHandler.ToSeckenGetString(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            ToSeckenGetString
+            </summary>
+            <param name="thisHttpAddressString"></param>
+            <param name="thisGetParaDics"></param>
+            <param name="thisCookieDics"></param>
+            <param name="thisUserAgent"></param>
+            <param name="isTimeAddress"></param>
+            <param name="isOpenSslEns"></param>
+            <param name="isAddSceret"></param>
+            <returns>HttpSeckenResultItem</returns>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.HttpProvider.ExpandForSeckenHttpHandler.ToSeckenPostString(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.Dictionary{System.String,Led.Plugin.HttpAshx.ApiModels.HttpAshxFileItem},System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            ToSeckenPostString
+            </summary>
+            <param name="thisHttpAddressString"></param>
+            <param name="thisPostParaDics"></param>
+            <param name="thisHttpCookies"></param>
+            <param name="thisPostFiles"></param>
+            <param name="thisUserAgent"></param>
+            <param name="isTimeAddress"></param>
+            <param name="isOpenSslEns"></param>
+            <param name="isAddSceret"></param>
+            <param name="isAskSignature"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Secken.ServerAuth.Framework.ServerAuthDataProvider">
+            <summary>
+            洋葱登录 - 框架执行服务
+            </summary>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.ServerAuthDataProvider.Action``1(Secken.ServerAuth.Framework.ServerAuthProviderType,System.Object[])">
+            <summary>
+            当前方法
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Framework.ServerAuthProvider">
+            <summary>
+            洋葱登录 - 框架服务
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Framework.ServerAuthProvider.Current">
+            <summary>
+            当前实例
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Framework.ServerAuthProvider.IsOpenAppInsight">
+            <summary>
+            是否开启监控
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Framework.ServerAuthProvider.CurrentSeckenYcAuthVersion">
+            <summary>
+            CurrentSeckenYcAuthVersion
+            </summary>
+        </member>
+        <member name="M:Secken.ServerAuth.Framework.ServerAuthProvider.Action``1(Secken.ServerAuth.Framework.ServerAuthProviderType,System.Object[])">
+            <summary>
+            当前方法
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Framework.ServerAuthProviderType">
+            <summary>
+            洋葱登录 - 框架服务类型
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.UnknownProviderType">
+            <summary>
+            非法操作
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.GetYangAuthQrCode">
+            <summary>
+            获取登录二维码
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.CheckYangAuthResult">
+            <summary>
+            检查授权结果
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.AskYangAuthPush">
+            <summary>
+            请求洋葱推送验证
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.GetYangAuthQrCodeSignature">
+            <summary>
+            GetYangAuthQrCodeSignature
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.GetYangAuthVerifyTypeCode">
+            <summary>
+            GetYangAuthVerifyTypeCode
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.CheckYangAuthResultSignature">
+            <summary>
+            CheckYangAuthResultSignature
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.AskYangAuthPushSignature">
+            <summary>
+            AskYangAuthPushSignature
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Framework.ServerAuthProviderType.GetYangAuthActionTypeCode">
+            <summary>
+            GetYangAuthActionTypeCode
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.MethodForServerAuth">
+            <summary>
+            Secken - AuthVerify - Type
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MethodForServerAuth.IllegalVerifyType">
+            <summary>
+            非法验证
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MethodForServerAuth.OneClickVerify">
+            <summary>
+            一键验证
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MethodForServerAuth.FaceVerify">
+            <summary>
+            人脸验证
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MethodForServerAuth.VoiceVerify">
+            <summary>
+            声纹验证
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.MsgForServerAuth">
+            <summary>
+            MsgForServerAuth
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.ApiMsgAtNullForReturn">
+            <summary>
+            ApiMsgAtNullForReturn
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.ApiMsgAtIllegalForReturn">
+            <summary>
+            ApiMsgAtIllegalForReturn
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.ApiMsgAtFailToForDeserialize">
+            <summary>
+            ApiMsgAtFailToForDeserialize
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.ApiMsgAtNullToContentForSubmit">
+            <summary>
+            ApiMsgAtNullToContentForSubmit
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.AppMsgAtIllegalForAction">
+            <summary>
+            AppMsgAtIllegalForAction
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.AppMsgAtIllegalForService">
+            <summary>
+            AppMsgAtIllegalForService
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.AppMsgAtIllegalForSupport">
+            <summary>
+            AppMsgAtIllegalForSupport
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.AppMsgAtIllegalForInnerError">
+            <summary>
+            AppMsgAtIllegalForInnerError
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.ApiCodeAtErrorForReturn">
+            <summary>
+            ApiCodeAtErrorForReturn
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.MsgForServerAuth.ApiCodeAtRightForReturn">
+            <summary>
+            ApiCodeAtRightForReturn
+            </summary>
+        </member>
+        <member name="M:Secken.ServerAuth.Models.MsgForServerAuth.GetMsg(System.String)">
+            <summary>
+            GetMsg
+            </summary>
+            <param name="errorCode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.ParaForServerAuth">
+            <summary>
+            ParaForServerAuth
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.CodeForIllegalForAction">
+            <summary>
+            CodeForIllegalForAction
+            非法调用
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.CodeForNullForReturn">
+            <summary>
+            CodeForNullForReturn
+            返回为空
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.CodeForFailToForDeserialize">
+            <summary>
+            CodeForFailToForDeserialize
+            反序列化失败
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.CodeForIllegalForReturn">
+            <summary>
+            CodeForIllegalForReturn
+            返回结果非法
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.CodeForIllegalForPermission">
+            <summary>
+            CodeForIllegalForPermission
+            无相关权限
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ActionKeyName">
+            <summary>
+            ActionKeyName
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.EventIdKeyName">
+            <summary>
+            EventIdKeyName
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.UserIdKeyName">
+            <summary>
+            UserIdKeyName
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ActionForGetYcAuthQrCode">
+            <summary>
+            ActionForGetYcAuthQrCode
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ActionForGetYcAuthOneClick">
+            <summary>
+            ActionForGetYcAuthOneClick
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ActionForCheckYcAuthResult">
+            <summary>
+            ActionForCheckYcAuthResult
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ActionForAskYangAuthPush">
+            <summary>
+            ActionForAskYangAuthPush
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForAppId">
+            <summary>
+            ParaForAppId
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForSignature">
+            <summary>
+            ParaForSignature
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForAuthType">
+            <summary>
+            ParaForAuthType
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForCallback">
+            <summary>
+            ParaForCallback
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForActionType">
+            <summary>
+            ParaForActionType
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForEventId">
+            <summary>
+            ParaForEventId
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForUserId">
+            <summary>
+            ParaForUserId
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForUserIpAddress">
+            <summary>
+            ParaForUserIpAddress
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.ParaForServerAuth.ParaForUserName">
+            <summary>
+            ParaForUserName
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Request.RequestForServerAuthKey">
+            <summary>
+            Secken - 数据请求或提交 - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthKey.AppId">
+            <summary>
+            AppId
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthKey.AppKey">
+            <summary>
+            AppKey
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Request.RequestForServerAuthPush">
+            <summary>
+            Secken - 数据请求或提交 - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthPush.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthPush.ActionType">
+            <summary>
+            AuthActionType
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthPush.UserIpAddress">
+            <summary>
+            UserIpAddress
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthPush.UserName">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Request.RequestForServerAuthQrCode">
+            <summary>
+            Secken - GetYcAuthQrCode - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthQrCode.AuthType">
+            <summary>
+            AuthType
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthQrCode.CallbackAddress">
+            <summary>
+            CallbackAddress
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Request.RequestForServerAuthResult">
+            <summary>
+            Secken - CheckYcAuthResult - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Request.RequestForServerAuthResult.EventId">
+            <summary>
+            EventId
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase">
+            <summary>
+            Secken - 数据请求或提交 - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase.Status">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase.ReturnSignature">
+            <summary>
+            ReturnSignature
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase._errorCode">
+            <summary>
+            返回错误码
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase.ErrorMsg">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase._msg">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.Response.ResponseForServerAuthBase._code">
+            <summary>
+            返回状态码
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Response.ResponseForServerAuthPush">
+            <summary>
+            Secken - 数据请求或提交 - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthPush.EventId">
+            <summary>
+            EventId
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Response.ResponseForServerAuthQrCode">
+            <summary>
+            Secken - 数据请求或提交 - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthQrCode.EventId">
+            <summary>
+            EventId
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthQrCode.QrCodeAddress">
+            <summary>
+            QrCodeAddress
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthQrCode.QrCodeImageValue">
+            <summary>
+            QrCodeImageValue
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.Response.ResponseForServerAuthResult">
+            <summary>
+            Secken - 数据请求或提交 - Json返回接口
+            </summary>
+        </member>
+        <member name="P:Secken.ServerAuth.Models.Response.ResponseForServerAuthResult.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.TypeForAuthAction">
+            <summary>
+            TypeForAuthAction
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.TypeForAuthAction.UnKnowType">
+            <summary>
+            未知类型
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.TypeForAuthAction.Login">
+            <summary>
+            登录验证
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.TypeForAuthAction.Request">
+            <summary>
+            请求验证
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.TypeForAuthAction.Pay">
+            <summary>
+            支付验证
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.TypeForAuthAction.Others">
+            <summary>
+            其他验证
+            </summary>
+        </member>
+        <member name="T:Secken.ServerAuth.Models.VersionForServerAuth">
+            <summary>
+            ApiVersionType
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.VersionForServerAuth.Unknow">
+            <summary>
+            非法操作
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.VersionForServerAuth.V1">
+            <summary>
+            版本一
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.VersionForServerAuth.V2">
+            <summary>
+            版本二
+            </summary>
+        </member>
+        <member name="F:Secken.ServerAuth.Models.VersionForServerAuth.V3">
+            <summary>
+            版本三
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,6 +1,6 @@
-﻿Server SDK For .NET（Secken.YangCong.ServerAuth）
-==============
+﻿# Secken Public Cloud Server SDK For DotNet
 
+## 简介（Description）
 Secken.YangCong.ServerAuth是Secken官方提供了一套用于和洋葱验证服务交互的SDK组件，通过使用它，您可以简化集成Secken服务的流程并降低开发成本。
 
 密码就要大声说出来，开启无密时代，让密码下岗
@@ -34,14 +34,14 @@ QQ群：475510094
 * 请求推送验证的方法（AskYangAuthPush），用于发起对用户的推送验证操作。
 * 查询事件结果的方法（CheckYangAuthResult），用于查询二维码登录或者推送验证的结果。
 
-# 安装使用（Install & Get Started）
+## 安装使用（Install & Get Started）
 
 To install Secken.YangCong.ServerAuth, run the following command in the Package Manager Console
 
 ```
 PM> Install-Package Secken.YangCong.ServerAuth
 ```
-# 更新发布（Update & Release Notes）
+## 更新发布（Update & Release Notes）
 
 ```
 【1.0.0】更新内容：
@@ -49,7 +49,7 @@ PM> Install-Package Secken.YangCong.ServerAuth
 2、完成了Wp8.0版接口封装。
 ```
 
-# 要求和配置（Require & Config）
+## 要求和配置（Require & Config）
 ```
 // 需要去洋葱开发者中心新建一个类型为公有云的应用，创建完成之后，将对应的AppId+AppKey填过来
 private RequestForServerAuthKey _thisRequestServerAuthKey = new RequestForServerAuthKey
@@ -76,7 +76,7 @@ public RequestForServerAuthKey ThisRequestServerAuthKey
 }
 ```
 
-# 获取二维码内容并发起验证事件（Get YangAuth QrCode）
+## 获取二维码内容并发起验证事件（Get YangAuth QrCode）
 ```
 // 准备请求参数类
 var thisRequestYangAuthQrCode = new RequestForServerAuthQrCode(ThisRequestServerAuthKey)
@@ -107,7 +107,7 @@ GetYangAuthQrCode接口包含两个必传参数，RequestServerAuthKey，AuthTyp
 |  500       |       系统错误                |
 |  609       |       ip地址被禁                |
 
-# 查询验证事件的结果（Check YangAuth Result）
+## 查询验证事件的结果（Check YangAuth Result）
 ```
 // 准备请求参数类
 var thisRequestYangAuthResult = new RequestForServerAuthResult(ThisRequestServerAuthKey)
@@ -158,7 +158,7 @@ CheckYangAuthResult接口包含两个必传参数，RequestServerAuthKey，Reque
 |  606       |       callback已被设置                |
 |  609       |       ip地址被禁                |
 
-# 发起推送验证事件（Ask YangAuth Push）
+## 发起推送验证事件（Ask YangAuth Push）
 ```
 // 准备请求参数类
 var thisRequestYangAuthPush = new RequestForServerAuthPush(ThisRequestServerAuthKey)
